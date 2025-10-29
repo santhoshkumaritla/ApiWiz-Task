@@ -56,14 +56,12 @@ function App() {
         <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="text-4xl">🌳</div>
+              
               <div>
                 <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
                   JSON Tree Visualizer
                 </h1>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-0.5">
-                  Visualize and explore JSON structures interactively
-                </p>
+                
               </div>
             </div>
             <ThemeToggle />

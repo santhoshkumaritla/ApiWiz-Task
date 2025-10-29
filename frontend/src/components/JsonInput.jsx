@@ -121,7 +121,7 @@ const JsonInput = ({ onVisualize, onClear }) => {
             shadow-md hover:shadow-lg
           "
         >
-          🌳 Visualize Tree
+           Visualize Tree
         </button>
         
         <button
