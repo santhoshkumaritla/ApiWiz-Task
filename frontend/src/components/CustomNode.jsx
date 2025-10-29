@@ -4,32 +4,32 @@ import { Handle, Position } from 'reactflow';
 const CustomNode = ({ data }) => {
   const { nodeType, label, value, path } = data;
 
-  // Define colors based on node type
+  // Define colors based on node type - Humanized color palette
   const getNodeStyle = () => {
     switch (nodeType) {
       case 'object':
         return {
-          bg: 'bg-gradient-to-br from-blue-500 to-purple-600 dark:from-blue-600 dark:to-purple-700',
-          border: 'border-blue-400 dark:border-blue-500',
+          bg: 'bg-gradient-to-br from-indigo-400 to-blue-500 dark:from-indigo-500 dark:to-blue-600',
+          border: 'border-indigo-300 dark:border-indigo-400',
           text: 'text-white',
         };
       case 'array':
         return {
-          bg: 'bg-gradient-to-br from-green-500 to-emerald-600 dark:from-green-600 dark:to-emerald-700',
-          border: 'border-green-400 dark:border-green-500',
+          bg: 'bg-gradient-to-br from-teal-400 to-cyan-500 dark:from-teal-500 dark:to-cyan-600',
+          border: 'border-teal-300 dark:border-teal-400',
           text: 'text-white',
         };
       case 'primitive':
         return {
-          bg: 'bg-gradient-to-br from-orange-400 to-yellow-500 dark:from-orange-500 dark:to-yellow-600',
-          border: 'border-orange-400 dark:border-orange-500',
+          bg: 'bg-gradient-to-br from-amber-400 to-orange-500 dark:from-amber-500 dark:to-orange-600',
+          border: 'border-amber-300 dark:border-amber-400',
           text: 'text-white',
         };
       default:
         return {
-          bg: 'bg-gray-200 dark:bg-gray-700',
-          border: 'border-gray-300 dark:border-gray-600',
-          text: 'text-gray-900 dark:text-gray-100',
+          bg: 'bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-800',
+          border: 'border-slate-300 dark:border-slate-600',
+          text: 'text-slate-800 dark:text-slate-100',
         };
     }
   };

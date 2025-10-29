@@ -112,8 +112,8 @@ const JsonInput = ({ onVisualize, onClear }) => {
           disabled={!jsonText.trim()}
           className="
             flex-1 px-6 py-3 
-            bg-gradient-to-r from-blue-500 to-purple-600 
-            hover:from-blue-600 hover:to-purple-700
+            bg-gradient-to-r from-indigo-500 to-blue-600 
+            hover:from-indigo-600 hover:to-blue-700
             disabled:from-gray-400 disabled:to-gray-500
             text-white font-semibold rounded-lg
             transition-all duration-200
@@ -121,7 +121,7 @@ const JsonInput = ({ onVisualize, onClear }) => {
             shadow-md hover:shadow-lg
           "
         >
-           Visualize Tree
+          🌳 Visualize Tree
         </button>
         
         <button

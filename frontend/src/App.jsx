@@ -48,7 +48,7 @@ function App() {
   }, [reactFlowInstance]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-950 transition-colors duration-300">
       <Toaster />
       
       {/* Header */}
@@ -123,15 +123,15 @@ function App() {
             </div>
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-blue-500 to-purple-600"></span>
+                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-indigo-400 to-blue-500"></span>
                 <span className="text-xs">Object</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-green-500 to-emerald-600"></span>
+                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-teal-400 to-cyan-500"></span>
                 <span className="text-xs">Array</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-orange-400 to-yellow-500"></span>
+                <span className="inline-block w-3 h-3 rounded-full bg-gradient-to-br from-amber-400 to-orange-500"></span>
                 <span className="text-xs">Primitive</span>
               </div>
             </div>

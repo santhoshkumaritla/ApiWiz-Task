@@ -79,7 +79,7 @@ const SearchBar = ({ nodes, onNodeFound, onSearchClear }) => {
           disabled={!searchPath.trim()}
           className="
             px-6 py-2.5
-            bg-blue-500 hover:bg-blue-600
+            bg-indigo-500 hover:bg-indigo-600
             disabled:bg-gray-400 dark:disabled:bg-gray-600
             text-white font-medium rounded-lg
             transition-colors duration-200

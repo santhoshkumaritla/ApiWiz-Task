@@ -125,13 +125,13 @@ const TreeVisualizer = ({ nodes, edges, highlightedNodeId, onInit }) => {
             nodeColor={(node) => {
               switch (node.data.nodeType) {
                 case 'object':
-                  return '#3b82f6';
+                  return '#6366f1'; // Indigo
                 case 'array':
-                  return '#10b981';
+                  return '#14b8a6'; // Teal
                 case 'primitive':
-                  return '#f59e0b';
+                  return '#f59e0b'; // Amber
                 default:
-                  return '#6b7280';
+                  return '#64748b'; // Slate
               }
             }}
             className="!bg-gray-100 dark:!bg-gray-800 !border-gray-300 dark:!border-gray-700"
