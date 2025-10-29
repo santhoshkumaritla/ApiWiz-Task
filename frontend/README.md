@@ -61,10 +61,9 @@ The app will be available at **http://localhost:5173**
 
 ```bash
 # Build optimized production bundle
+cd frontend
 npm run build
-
-# Preview production build locally
-npm run preview
+  
 ```
 
 The build output will be in the `dist/` directory.
